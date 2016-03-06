@@ -107,7 +107,6 @@ X_total <- tbl_df(X_total) # converting data frames for screen visual outputs
    # columns with meanFreq.  Escape \\ variable used so "." searched as character
 meanCols <- X_total[,grepl("\\.[Mm]ean\\.", colnames(X_total))] # columns containing mean
 stdCols <- X_total[,grepl("[Ss]td", colnames(X_total))] # columns containting std
-dataset <- X_total$dataset # getting last column with data type info out
 subject <- X_total$subject
 activity <- X_total$activity
 
