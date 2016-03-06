@@ -689,9 +689,8 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
+## Variables and Values in tidy data set 
 
+1. activities (df, values from 
 
-
-
-## Values in tidy data set 
 
