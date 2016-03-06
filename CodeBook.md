@@ -691,6 +691,24 @@ The complete list of variables of each feature vector is available in 'features.
 
 ## Variables and Values in tidy data set 
 
-1. activities (df, values from 
+* activities (df, text version of values from ‘activity_labels.txt, number version deleted)
+* activity = X_total$activity (same content as X_test_activity and X_test_activity)
+* features (df, values from ‘features.txt’ file)
+* meanCols (vector, columns of X_total that contain ‘[Mm]ean’)
+* meanData = output of mean value of each grouping in X_selected
+* stdCols (vector, columns of X_total that contain ‘[Ss]td’)
+* subject = X_total$subject (same content as X_test_subject and X_train_subject)
+* X_selected (df, selected columns that contain mean, std quantities plus subject and activity, at end grouped by activity and subject and then arranged by same)
+* X_selected_cols (vector, column names of X_selected)
+* X_test_all (df, combination of X_test df above)
+* X_test_subject (df, numeric values from ‘subject_test.txt’)
+* X_text  (df, numeric values from ‘X_test.txt’ file, given column names from ‘features.txt’)
+* X_total (df, combination of X_test_all and X_train_all)
+* X_train (df, numeric values from ‘X_train.txt’ file, given column names from ‘features.txt’)
+* X_train_all (df, combination of X_train df above)
+* X_train_subject (df, numeric values from ‘subject_train.txt’)
+* y_test (df, numeric values from ‘y_test.txt’)
+* y_train (df, numeric values from ‘y_train.txt’)
+
 
 
