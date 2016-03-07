@@ -430,6 +430,33 @@ The goal of the project was to gather the information from the X_test.txt and X_
 * y_test (df, numeric values from ‘y_test.txt’)
 * y_train (df, numeric values from ‘y_train.txt’)
 
+
+## Subset of columns founds in the 'X_selected_cols' vector (mean and std values from raw data):
+
+ [1] "time_BodyAcc.mean_xvector"           "time_BodyAcc.mean_yvector"           "time_BodyAcc.mean_zvector"          
+ [4] "time_GravityAcc.mean_xvector"        "time_GravityAcc.mean_yvector"        "time_GravityAcc.mean_zvector"       
+ [7] "time_BodyAccJerk.mean_xvector"       "time_BodyAccJerk.mean_yvector"       "time_BodyAccJerk.mean_zvector"      
+[10] "time_BodyGyro.mean_xvector"          "time_BodyGyro.mean_yvector"          "time_BodyGyro.mean_zvector"         
+[13] "time_BodyGyroJerk.mean_xvector"      "time_BodyGyroJerk.mean_yvector"      "time_BodyGyroJerk.mean_zvector"     
+[16] "time_BodyAccMag.mean_scalar"         "time_GravityAccMag.mean_scalar"      "time_BodyAccJerkMag.mean_scalar"    
+[19] "time_BodyGyroMag.mean_scalar"        "time_BodyGyroJerkMag.mean_scalar"    "fft_BodyAcc.mean_xvector"           
+[22] "fft_BodyAcc.mean_yvector"            "fft_BodyAcc.mean_zvector"            "fft_BodyAccJerk.mean_xvector"       
+[25] "fft_BodyAccJerk.mean_yvector"        "fft_BodyAccJerk.mean_zvector"        "fft_BodyGyro.mean_xvector"          
+[28] "fft_BodyGyro.mean_yvector"           "fft_BodyGyro.mean_zvector"           "fft_BodyAccMag.mean_scalar"         
+[31] "fft_BodyBodyAccJerkMag.mean_scalar"  "fft_BodyBodyGyroMag.mean_scalar"     "fft_BodyBodyGyroJerkMag.mean_scalar"
+[34] "time_BodyAcc.std_xvector"            "time_BodyAcc.std_yvector"            "time_BodyAcc.std_zvector"           
+[37] "time_GravityAcc.std_xvector"         "time_GravityAcc.std_yvector"         "time_GravityAcc.std_zvector"        
+[40] "time_BodyAccJerk.std_xvector"        "time_BodyAccJerk.std_yvector"        "time_BodyAccJerk.std_zvector"       
+[43] "time_BodyGyro.std_xvector"           "time_BodyGyro.std_yvector"           "time_BodyGyro.std_zvector"          
+[46] "time_BodyGyroJerk.std_xvector"       "time_BodyGyroJerk.std_yvector"       "time_BodyGyroJerk.std_zvector"      
+[49] "time_BodyAccMag.std_scalar"          "time_GravityAccMag.std_scalar"       "time_BodyAccJerkMag.std_scalar"     
+[52] "time_BodyGyroMag.std_scalar"         "time_BodyGyroJerkMag.std_scalar"     "fft_BodyAcc.std_xvector"            
+[55] "fft_BodyAcc.std_yvector"             "fft_BodyAcc.std_zvector"             "fft_BodyAccJerk.std_xvector"        
+[58] "fft_BodyAccJerk.std_yvector"         "fft_BodyAccJerk.std_zvector"         "fft_BodyGyro.std_xvector"           
+[61] "fft_BodyGyro.std_yvector"            "fft_BodyGyro.std_zvector"            "fft_BodyAccMag.std_scalar"          
+[64] "fft_BodyBodyAccJerkMag.std_scalar"   "fft_BodyBodyGyroMag.std_scalar"      "fft_BodyBodyGyroJerkMag.std_scalar" 
+[67] "subject"                             "activity"       
+
 ## Units of variables (when present)
 
 1. Many of the variables produced in the analysis are label names without units.  For example, the 'subject' data frame consists of a numeric idenifier for the person who carried the smartphone, and 'activity' is a data frame giving the type of activity the person was engaged in, e.g. 'WALKING' and thus don't have units.
